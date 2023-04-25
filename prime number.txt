@@ -1,0 +1,13 @@
+algorithm to find whether the given positive number prime number or not
+step1:start
+step2:read the value n
+step3:initialize count<--0 ,i<--1
+step4:repeatedly execute the steps(i)-(ii) until i<=n
+      i.if(n%i=o)then
+        count<--count+1
+     ii.i<--i+1
+step5:if(count==2)then
+      print"n is a prime number"
+      else
+      print"n is not a prime number"
+step6:stop

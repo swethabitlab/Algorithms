@@ -1,0 +1,11 @@
+algorithm to find the product of first n odd numbers
+
+step1:start
+step2:read the value n
+step3: initialize mul<--1,i<--1 and count<--1
+step4:repeatedly execute the steps (i)-(iii) until count<=n
+      i.mul<--mul*i
+     ii.i<--i+2
+    iii.count<--count+1
+step5:print mul
+step6:stop
